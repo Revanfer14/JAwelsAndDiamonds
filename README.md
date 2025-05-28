@@ -1,9 +1,6 @@
 # 💎 JewelsAndDiamonds - Final Project for Pattern Software Design (4th Semester)
 
-**JewelsAndDiamonds** adalah sebuah web aplikasi e-commerce sederhana yang dibuat menggunakan **ASP.NET Web Forms**, **C#**, dan **CSS**, dengan arsitektur **Domain-Driven Design (DDD)** untuk memisahkan tanggung jawab antar lapisan secara bersih dan terstruktur. Aplikasi ini memiliki tampilan **user-friendly**, memudahkan pengguna untuk menjelajahi dan membeli perhiasan secara online.
-
 **JewelsAndDiamonds** is a simple e-commerce web application built using **ASP.NET Web Forms**, **C#**, and **CSS**, with a **Domain-Driven Design (DDD)** architecture to clearly and structurally separate responsibilities across layers. The application features a **user-friendly** interface, making it easy for users to browse and purchase jewelry online.
-
 
 ---
 
