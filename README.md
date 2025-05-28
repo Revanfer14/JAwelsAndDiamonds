@@ -2,6 +2,9 @@
 
 **JewelsAndDiamonds** adalah sebuah web aplikasi e-commerce sederhana yang dibuat menggunakan **ASP.NET Web Forms**, **C#**, dan **CSS**, dengan arsitektur **Domain-Driven Design (DDD)** untuk memisahkan tanggung jawab antar lapisan secara bersih dan terstruktur. Aplikasi ini memiliki tampilan **user-friendly**, memudahkan pengguna untuk menjelajahi dan membeli perhiasan secara online.
 
+**JewelsAndDiamonds** is a simple e-commerce web application built using **ASP.NET Web Forms**, **C#**, and **CSS**, with a **Domain-Driven Design (DDD)** architecture to clearly and structurally separate responsibilities across layers. The application features a **user-friendly** interface, making it easy for users to browse and purchase jewelry online.
+
+
 ---
 
 ## 🧱 Tech Stack
@@ -14,18 +17,18 @@
 
 ---
 
-## 🧠 Arsitektur Domain-Driven Design (DDD)
+## 🧠 Domain-Driven Design (DDD) Architecture
 
-Aplikasi ini mengimplementasikan pola **DDD** dengan pembagian lapisan berikut:
+This application implements the **DDD** pattern with the following layer separation:
 
-- **Models** → merepresentasikan struktur dan entitas domain (MsUser, Jewel, Cart, Transaction, dll)  
-- **Handlers** → menangani business logic ringan seperti validasi, session, autentikasi  
-- **Controllers** → berisi business logic utama (misalnya update password, checkout, manipulasi cart)  
-- **Views (UI)** → halaman ASPX yang hanya berfungsi sebagai lapisan presentasi  
+- **Models** → represent the structure and domain entities (MsUser, Jewel, Cart, Transaction, etc.)
+- **Handlers** → handle lightweight business logic such as validation, session, authentication
+- **Controllers** → contain the main business logic (e.g., password updates, checkout, cart manipulation)  
+- **Views (UI)** → ASPX pages that function solely as the presentation layer
 
 ---
 
-## 👤 Role & Fitur
+## 👤 Roles and Features
 
 ### 🔑 Guest
 - 🔍 View Jewels
@@ -55,7 +58,7 @@ Aplikasi ini mengimplementasikan pola **DDD** dengan pembagian lapisan berikut:
 
 ---
 
-## 📷 Dokumentasi
+## 📷 Documentation
 ![Home](https://github.com/user-attachments/assets/66b930c3-c1a9-4f22-bf98-f23ee04b709d)
 ![Register](https://github.com/user-attachments/assets/5560e9bb-97e8-4850-bbbe-ed0aa4964ccc)
 ![HandleOrder](https://github.com/user-attachments/assets/2031ce41-4ddd-4fe9-b380-3f93e6f97e63)
@@ -63,17 +66,17 @@ Aplikasi ini mengimplementasikan pola **DDD** dengan pembagian lapisan berikut:
 
 ---
 
-## 🚀 Cara Menjalankan
+## 🚀 How to run local
 
-1. **Clone** repository ini
-2. Buka di **Visual Studio 2022**
+1. **Clone** this repository
+2. Open in **Visual Studio 2022**
 3. Restore NuGet packages
-4. Run projectnya
+4. Run the project
 ---
 
 ## 📌 License
 
-Proyek ini dibuat untuk keperluan pembelajaran akademik dan tidak ditujukan untuk produksi.
+This project was created for academic learning purposes and is not intended for production use.
 
 ---
 
