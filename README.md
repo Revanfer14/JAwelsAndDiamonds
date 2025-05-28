@@ -1,4 +1,4 @@
-# 💎 JewelsAndDiamonds Web Application
+# 💎 JewelsAndDiamonds - Pattern Software Design' Final Project
 
 **JewelsAndDiamonds** adalah sebuah web aplikasi e-commerce sederhana yang dibuat menggunakan **ASP.NET Web Forms**, **C#**, dan **CSS**, dengan arsitektur **Domain-Driven Design (DDD)** untuk memisahkan tanggung jawab antar lapisan secara bersih dan terstruktur. Aplikasi ini memiliki tampilan **user-friendly**, memudahkan pengguna untuk menjelajahi dan membeli perhiasan secara online.
 
