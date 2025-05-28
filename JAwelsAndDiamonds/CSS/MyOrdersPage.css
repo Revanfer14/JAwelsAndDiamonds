@@ -1,0 +1,72 @@
+﻿body {
+    font-family: 'Segoe UI', 'Century Gothic', sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+.orderpage-gridview {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', 'Century Gothic', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+    .orderpage-gridview th {
+        background-color: #333;
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
+        font-weight: bold;
+        border: 1px solid #444;
+    }
+
+    .orderpage-gridview td {
+        padding: 20px 30px;
+        border: 1px solid #ddd;
+    }
+
+.grid-btn {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .grid-btn:hover {
+        background-color: darkgreen;
+    }
+
+.reject-btn {
+    background-color: red;
+}
+
+    .reject-btn:hover {
+        background-color: indianred;
+    }
+
+.view-btn {
+    background-color: #333;
+}
+
+    .view-btn:hover {
+        background-color: #555;
+    }
+
+.btn-container {
+    white-space: nowrap;
+}

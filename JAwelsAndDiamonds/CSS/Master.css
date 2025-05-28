@@ -1,0 +1,93 @@
+﻿body {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', 'Century Gothic', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #000000;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#guestNavbar, #customerNavbar, #adminNavbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.midNav {
+    display: flex;
+    gap: 10px;
+}
+
+.endNav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+#currentUser, #currentAdmin {
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.navBtn {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    padding: 11px 20px;
+    font-size: 12pt;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+    .navBtn:hover {
+        background-color: whitesmoke;
+    }
+
+.content {
+    min-height: calc(100vh - 60px - 41px);
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #000000;
+    padding: 20px;
+    font-size: 12pt;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 12pt;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}

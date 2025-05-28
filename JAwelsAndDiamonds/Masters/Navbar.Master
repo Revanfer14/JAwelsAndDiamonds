@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Navbar.master.cs" Inherits="JAwelsAndDiamonds.Masters.Navbar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>JAwels & Diamonds</title>
+    <link href="~/CSS/Master.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="page-wrapper">
+            <%-- Navbar --%>
+            <div class="navbar">
+                <%-- Guest navbar --%>
+                <asp:Panel ID="guestNavbar" runat="server" Visible="true">
+                    <asp:Button CssClass="navBtn" ID="HomeBtnGuest" runat="server" Text="Home" OnClick="HomeBtn_Click" />
+                    <div class="endNav">
+                        <asp:Button CssClass="navBtn" ID="LoginBtnGuest" runat="server" Text="Login" OnClick="LoginBtnGuest_Click" />
+                        <asp:Button CssClass="navBtn" ID="RegisterBtnGuest" runat="server" Text="Register" OnClick="RegisterBtnGuest_Click" />
+                    </div>
+                </asp:Panel>
+
+                <%-- Customer navbar --%>
+                <asp:Panel ID="customerNavbar" runat="server" Visible="false">
+                    <asp:Label ID="currentUser" runat="server" Text=""></asp:Label>
+                    <div class="midNav">
+                        <asp:Button CssClass="navBtn" ID="HomeBtnCustomer" runat="server" Text="Home" OnClick="HomeBtn_Click" />
+                        <asp:Button CssClass="navBtn" ID="CartBtnCustomer" runat="server" Text="Cart" OnClick="CartBtnCustomer_Click" />
+                        <asp:Button CssClass="navBtn" ID="OrdersBtnCustomer" runat="server" Text="My Orders" OnClick="OrdersBtnCustomer_Click" />
+                    </div>
+                    <div class="endNav">
+                        <asp:Button CssClass="navBtn" ID="ProfileBtnCustomer" runat="server" Text="Profile" OnClick="ProfileBtn_Click" />
+                        <asp:Button CssClass="navBtn" ID="LogoutBtnCustomer" runat="server" Text="Logout" OnClick="logoutBtn_Click" />
+                    </div>
+                </asp:Panel>
+
+                <%-- Admin navbar --%>
+                <asp:Panel ID="adminNavbar" runat="server" Visible="false">
+                    <asp:Label ID="currentAdmin" runat="server" Text=""></asp:Label>
+                    <div class="midNav">
+                        <asp:Button CssClass="navBtn" ID="HomeBtnAdmin" runat="server" Text="Home" OnClick="HomeBtn_Click" />
+                        <asp:Button CssClass="navBtn" ID="AddJewelBtnAdmin" runat="server" Text="Add Jewel" OnClick="AddJewelBtnAdmin_Click" />
+                        <asp:Button CssClass="navBtn" ID="ReportsBtnAdmin" runat="server" Text="Reports" OnClick="ReportsBtnAdmin_Click" />
+                        <asp:Button CssClass="navBtn" ID="HandleOrderBtnAdmin" runat="server" Text="Handle Orders" OnClick="HandleOrderBtnAdmin_Click" />
+                    </div>
+                    <div class="endNav">
+                        <asp:Button CssClass="navBtn" ID="ProfileBtnAdmin" runat="server" Text="Profile" OnClick="ProfileBtn_Click" />
+                        <asp:Button CssClass="navBtn" ID="LogoutBtnAdmin" runat="server" Text="Logout" OnClick="logoutBtn_Click" />
+                    </div>
+                </asp:Panel>
+            </div>
+
+            <%-- Content (Pages) --%>
+            <div class="content">
+                <asp:ContentPlaceHolder ID="contentBody" runat="server"></asp:ContentPlaceHolder>
+            </div>
+
+            <%-- Footer --%>
+            <footer class="footer">
+                Copyright &copy; JAwels & Diamonds 2025
+            </footer>
+        </div>
+
+    </form>
+</body>
+</html>
