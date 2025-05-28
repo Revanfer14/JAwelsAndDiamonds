@@ -55,6 +55,14 @@ Aplikasi ini mengimplementasikan pola **DDD** dengan pembagian lapisan berikut:
 
 ---
 
+## 📷 Dokumentasi
+![Home](https://github.com/user-attachments/assets/66b930c3-c1a9-4f22-bf98-f23ee04b709d)
+![Register](https://github.com/user-attachments/assets/5560e9bb-97e8-4850-bbbe-ed0aa4964ccc)
+![HandleOrder](https://github.com/user-attachments/assets/2031ce41-4ddd-4fe9-b380-3f93e6f97e63)
+![Cart](https://github.com/user-attachments/assets/eb7dbcee-4e78-47db-bfda-ff07679734b7)
+
+---
+
 ## 🚀 Cara Menjalankan
 
 1. **Clone** repository ini
